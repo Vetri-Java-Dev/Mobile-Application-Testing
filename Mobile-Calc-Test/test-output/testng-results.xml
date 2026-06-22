@@ -1,88 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-06-22T23:31:31 IST" name="Default suite" finished-at="2026-06-22T23:31:49 IST" duration-ms="18016">
+  <suite started-at="2026-06-23T00:20:06 IST" name="Default suite" finished-at="2026-06-23T00:20:16 IST" duration-ms="10517">
     <groups>
     </groups>
-    <test started-at="2026-06-22T23:31:31 IST" name="Default test" finished-at="2026-06-22T23:31:49 IST" duration-ms="18016">
-      <class name="mobileTest.Call">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:mobileTest.Call@8f4ea7c]" started-at="2026-06-22T23:31:31 IST" name="setUp" finished-at="2026-06-22T23:31:36 IST" duration-ms="5575" status="PASS">
+    <test started-at="2026-06-23T00:20:06 IST" name="Default test" finished-at="2026-06-23T00:20:16 IST" duration-ms="10517">
+      <class name="mobileTest.AlarmTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:mobileTest.AlarmTest@10e31a9a]" started-at="2026-06-23T00:20:06 IST" name="setup" finished-at="2026-06-23T00:20:11 IST" duration-ms="5090" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="makeCall()[pri:0, instance:mobileTest.Call@8f4ea7c]" started-at="2026-06-22T23:31:36 IST" name="makeCall" finished-at="2026-06-22T23:31:48 IST" duration-ms="11610" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [56b80a0e-41b0-408a-84cd-212ff6b49ca4, findElement {using=accessibility id, value=call}]
-Capabilities {appium:appActivity: com.google.android.dialer.e..., appium:appPackage: com.google.android.dialer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.google.android.dialer.e..., appPackage: com.google.android.dialer, automationName: UiAutomator2, noReset: true, platformName: ANDROID, udid: 4H9DRCAM6X8TLVJN}, appium:deviceApiLevel: 36, appium:deviceManufacturer: realme, appium:deviceModel: RMX3943, appium:deviceName: 4H9DRCAM6X8TLVJN, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1604, appium:deviceUDID: 4H9DRCAM6X8TLVJN, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 16, appium:statBarHeight: 74, appium:takesScreenshot: true, appium:udid: 4H9DRCAM6X8TLVJN, appium:viewportRect: {height: 1530, left: 0, top: 74, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 56b80a0e-41b0-408a-84cd-212ff6b49ca4]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [56b80a0e-41b0-408a-84cd-212ff6b49ca4, findElement {using=accessibility id, value=call}]
-Capabilities {appium:appActivity: com.google.android.dialer.e..., appium:appPackage: com.google.android.dialer, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.google.android.dialer.e..., appPackage: com.google.android.dialer, automationName: UiAutomator2, noReset: true, platformName: ANDROID, udid: 4H9DRCAM6X8TLVJN}, appium:deviceApiLevel: 36, appium:deviceManufacturer: realme, appium:deviceModel: RMX3943, appium:deviceName: 4H9DRCAM6X8TLVJN, appium:deviceScreenDensity: 320, appium:deviceScreenSize: 720x1604, appium:deviceUDID: 4H9DRCAM6X8TLVJN, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:noReset: true, appium:pixelRatio: 2, appium:platformVersion: 16, appium:statBarHeight: 74, appium:takesScreenshot: true, appium:udid: 4H9DRCAM6X8TLVJN, appium:viewportRect: {height: 1530, left: 0, top: 74, width: 720}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 56b80a0e-41b0-408a-84cd-212ff6b49ca4
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at mobileTest.Call.makeCall(Call.java:54)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        </test-method> <!-- setup -->
+        <test-method signature="setAlarmToFiveAM()[pri:0, instance:mobileTest.AlarmTest@10e31a9a]" started-at="2026-06-23T00:20:11 IST" name="setAlarmToFiveAM" finished-at="2026-06-23T00:20:16 IST" duration-ms="4591" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- makeCall -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mobileTest.Call@8f4ea7c]" started-at="2026-06-22T23:31:48 IST" name="tearDown" finished-at="2026-06-22T23:31:49 IST" duration-ms="781" status="PASS">
+        </test-method> <!-- setAlarmToFiveAM -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mobileTest.AlarmTest@10e31a9a]" started-at="2026-06-23T00:20:16 IST" name="tearDown" finished-at="2026-06-23T00:20:16 IST" duration-ms="793" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- mobileTest.Call -->
+      </class> <!-- mobileTest.AlarmTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

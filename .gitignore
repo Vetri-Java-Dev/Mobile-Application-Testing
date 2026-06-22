@@ -1,0 +1,13 @@
+# Eclipse workspace (CRITICAL)
+.metadata/
+.settings/
+bin/
+build/
+target/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
